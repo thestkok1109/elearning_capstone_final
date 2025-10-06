@@ -1,0 +1,54 @@
+// Color 
+$dark-1: #191919;
+$dark-2: rgba(25, 25, 25, 0.6);
+
+$white-1: #fff;
+$white-2: #f5f5f5;
+$white-3: rgba(245, 245, 245, 0.8);
+
+$green-1: #1d7a85; 
+$green-2: rgba(29, 123, 133, 0.3);
+$green-3: rgba(29, 123, 133, 0.8);
+
+$grey-1: #aeaeaf;
+$grey-2: #fafafa;
+
+$yellow-1: #ffc100;
+$yellow-2: rgba(255, 191, 0, 0.7);
+$yellow-3: #fbfcf1;
+
+$red-1: #B80000;
+$red-2: #EF4444;
+
+// Font size
+$fs-1: 14px;
+$fs-2: 16px;
+$fs-3: 18px;
+$fs-4: 24px;
+$fs-5: 32px;
+$fs-6: 38px;
+
+// Padding
+$pd-1: 5px;
+$pd-2: 10px;
+$pd-3: 16px;
+$pd-4: 25px;
+
+// Margin 
+$mg-1: 10px;
+$mg-2: 15px;
+$mg-3: 20px;
+$mg-4: 25px;
+
+// Border radius
+$br-1: 4px;
+
+// break points - desktop first
+$breakpoints: (
+    2xl: 1399.98px,
+    xl: 1199.98px,
+    lg: 991.98px,
+    md: 767.98px,
+    sm: 575.98px,
+    xsm: 375.98px
+);

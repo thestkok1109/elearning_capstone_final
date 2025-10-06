@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// IMPORT SASS FILES HERE
+// helpers
+@import "./helpers/variables";
+@import "./helpers/mixin";
+
+// base
+@import "./base/reset";
+
+// components
+@import "./components/header";
+@import "./components/sliderHome";
+@import "./components/course";
+@import "./components//footer";
+@import "./components/enrolledCourse";
+@import "./components/adminHeader";
+@import "./components/userMgtAdmin";
+@import "./components/courseMgtAdmin";
+@import "./components/updateUserModal";
+@import "./components/addUserModal";
+@import "./components/enrollmentModal";
+
+// pages
+@import "./pages/notFoundPage";
+@import "./pages/searchCourse";
+@import "./pages/catalog";
+@import "./pages/profile";
+@import "./pages/detailPage";
+@import "./pages/secureGate";
+@import "./pages/adminPage";

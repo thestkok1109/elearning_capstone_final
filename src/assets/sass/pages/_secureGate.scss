@@ -1,0 +1,16 @@
+.secureGate {
+    .ant-result {
+        .ant-result-title {
+            font-size: $fs-6;
+            color: $dark-1;
+        }
+
+        .ant-result-subtitle {
+            font-size: $fs-4;
+
+            @include x-mobile {
+                font-size: $fs-3;
+            }
+        }
+    }
+}

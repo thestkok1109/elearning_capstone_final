@@ -1,0 +1,20 @@
+.homePage__slider {
+    background-color: $green-2;
+    height: 80vh;
+
+    @include tablet {
+        height: 110vh;
+    }
+
+    .slider__left {
+        height: 80vh;
+
+        @include tablet {
+            height: 70vh;
+        }
+
+        img {
+            margin: 0 auto;
+        }
+    }
+}

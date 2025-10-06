@@ -1,0 +1,70 @@
+.enrollmentModal {
+    .ant-modal-content {
+        .ant-modal-body {
+            .ant-modal-confirm-body-wrapper {
+                .ant-modal-confirm-body {
+                    justify-content: center;
+
+                    .ant-modal-confirm-paragraph {
+                        .ant-modal-confirm-content {
+                            .userEnrollment {
+                                .styleCustom {
+                                    .tblStyle {
+                                        .ant-spin-nested-loading {
+                                            .ant-spin-container {
+                                                .ant-table {
+                                                    border: 1px solid $grey-1;
+                                                    border-radius: 8px;
+                                                    overflow-x: auto;
+
+                                                    .ant-table-container {
+                                                        .ant-table-content {
+                                                            table {
+                                                                .ant-table-thead {}
+
+                                                                .ant-table-tbody {
+                                                                    .ant-table-row {
+                                                                        .ant-table-cell {
+                                                                            &:last-child {
+                                                                                .ant-space {
+                                                                                    .ant-space-item {
+                                                                                        .ant-btn {
+                                                                                            &:hover {
+                                                                                                border-color: $green-3;
+                                                                                                color: $green-3;
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+
+                                                .ant-pagination {
+                                                    justify-content: center;
+
+                                                    .ant-pagination-item-active {
+                                                        border-color: $green-1;
+
+                                                        a {
+                                                            color: $green-1;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

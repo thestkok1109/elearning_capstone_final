@@ -1,0 +1,25 @@
+.catalogCourses{
+    background: $green-1;
+    color: white;
+    padding: 20px;
+    h1{
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.catalog_title{
+    box-sizing: border-box;
+    border: 1px $dark-2 solid;
+    margin-top: 40px;
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    &:hover{
+        transition: 0.3s;
+        border: 1px $green-1 solid;
+        color: $green-1;
+    }
+}

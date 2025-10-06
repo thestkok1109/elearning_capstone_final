@@ -1,0 +1,157 @@
+.detailCourses {
+    background: $green-1;
+    color: white;
+    padding: 20px;
+
+    h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+.detailContent {
+    display: flex;
+
+    .courseContent {
+        
+    }
+
+    .cardCourse {
+        .ant-card {
+            .ant-card-cover {
+                .imgCourse {
+                    width: 360px;
+                    height: 200px;
+
+                    @include mobile {
+                        margin: 0 auto;
+                    }
+
+                    @include xs-mobile {
+                        width: 280px;
+                        height: 150px;
+                    }
+                }
+            }
+
+            .ant-card-body {
+                h1 {
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            
+                h3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        
+        }
+    
+    }
+
+    @include mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+.avartar {
+    width: 40px;
+    height: 40px;
+    background: $green-1;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+.titleH6 {
+    color: $dark-2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.titleH5 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.iconCheck {
+    p {
+        i {
+            color: $green-1;
+            font-size: 20px;
+            padding-right: 5px;
+        }
+    }
+
+}
+
+.iconContentCourse {
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+
+    h6 {
+        color: $dark-2;
+
+        i {
+            color: $green-1;
+            padding-right: 5px;
+        }
+    }
+
+}
+
+.titleCourse {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.contentPara {
+    p.moTa {
+        color: $dark-2;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        background-color: $grey-2;
+        padding: 10px 5px;
+        margin-top: 30px;
+    }
+
+    h4 {
+        padding: 10px 5px;
+    }
+
+    .lesson {
+        background: $yellow-3;
+    }
+}
+
+/* .cardCourse {
+    h1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .imgCourse {
+        width: 360px;
+        height: 200px;
+    }
+
+    @include mobile {
+        
+    }
+} */

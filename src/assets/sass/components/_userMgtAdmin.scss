@@ -1,0 +1,72 @@
+.admin__userMgt {
+    .userMgt__content {
+        .userMgtCont__btnAdd {}
+
+        // search bar
+        .userMgtCont__searchBar {
+            .searchIn__style {
+                background: $white-2;
+
+                &:focus {
+                    @include inputHover;
+                }
+            }
+        }
+
+
+        // table
+        .userMgtCont__table {
+            .tblContent {
+                .ant-spin-nested-loading {
+                    .ant-spin-container {
+                        .ant-table {
+                            border: 1px solid $grey-1;
+                            border-radius: 8px;
+                            overflow-x: auto;
+
+                            .ant-table-container {
+                                .ant-table-content {
+                                    table {
+                                        .ant-table-thead {}
+
+                                        .ant-table-tbody {
+                                            .ant-table-row {
+                                                .ant-table-cell {
+                                                    &:last-child {
+                                                        .ant-space {
+                                                            .ant-space-item {
+                                                                .ant-btn {
+                                                                    &:hover {
+                                                                        border-color: $green-3;
+                                                                        color: $green-3;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .ant-pagination {
+                            justify-content: center;
+                            margin-top: $mg-4;
+
+                            .ant-pagination-item-active {
+                                border-color: $green-1;
+
+                                a {
+                                    color: $green-1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

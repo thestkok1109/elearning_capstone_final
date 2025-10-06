@@ -1,0 +1,105 @@
+.searchCourse {
+    .searchCourse__content {
+        .searchContent__list {
+            .searchList__courses {
+                .searchList__courseFound {
+                    .ant-spin-nested-loading {
+                        .ant-spin-container {
+                            .ant-list-items {
+                                .courseFound__item {
+                                    border: 1px solid $dark-2;
+                                    margin-bottom: $mg-3;
+                                    border-radius: 8px;
+                                    width: 70%;
+
+                                    @include tablet {
+                                        width: 100%;
+                                    }
+
+                                    @include x-mobile {
+                                        flex-direction: column-reverse;
+                                    }
+
+                                    .ant-list-item-main {
+                                        color: $dark-1;
+
+                                        .itemFound__title {
+                                            margin-bottom: $mg-1 - 5;
+
+                                            .ant-list-item-meta-content {
+                                                .ant-list-item-meta-title {
+                                                    margin-bottom: 0;
+
+                                                    a {
+                                                        font-size: $fs-3 + 2;
+                                                        font-weight: 700;
+                                                        text-transform: capitalize;
+
+                                                        &:hover {
+                                                            color: $green-1;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .itemFound__author {
+                                            margin-top: $mg-3;
+                                            margin-bottom: 0;
+                                            display: flex;
+                                            align-items: center;
+
+                                            .ant-list-item-meta-avatar {
+                                                margin-right: $mg-1 - 5;
+                                            }
+
+                                            .ant-list-item-meta-content {
+                                                .ant-list-item-meta-description {
+                                                    text-transform: capitalize;
+                                                }
+                                            }
+                                        }
+
+                                        .ant-list-item-action {
+                                            margin-top: $mg-1;
+
+                                            li {
+                                                .ant-space {
+
+                                                    .ant-space-item {
+                                                        .anticon {
+                                                            color: $green-1;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    .ant-list-item-extra {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ant-list-pagination {
+                        text-align: start;
+
+                        .ant-pagination {
+                            .ant-pagination-item-active {
+                                border: 1px solid $green-1;
+
+                                a {
+                                    color: $green-1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.course__item {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .ant-card-cover {
+        img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+    }
+
+    .ant-card-body {
+        position: relative;
+
+        .course__cate {
+            position: absolute;
+            background-color: $yellow-1;
+            padding: $pd-2 - 5;
+            left: -1px;
+            top: -16px;
+            color: $dark-1;
+        }
+
+        .course__info {
+            margin-bottom: $mg-4;
+
+            .ant-card-meta-detail {
+                .ant-card-meta-title {
+                    margin: 0;
+                    text-transform: capitalize;
+                    font-size: $fs-3 + 2;
+                    color: $dark-1;
+                }
+
+                .ant-card-meta-description {
+                    color: $dark-2;
+                }
+            }
+        }
+
+        .course__author {
+            align-items: center;
+
+            .ant-card-meta-avatar {
+                padding-right: $pd-1;
+            }
+        }
+    }
+
+    .ant-card-actions {
+
+        .actions__item {
+
+            span {
+                padding-left: $pd-1;
+                font-weight: 500;
+            }
+
+            &:hover {
+                color: $green-1;
+            }
+        }
+    }
+}

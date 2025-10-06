@@ -1,0 +1,86 @@
+.adminPage {
+    .adminPage__content {
+
+        @include x-mobile {
+            padding: 0 !important;
+            margin-top: 0 !important;
+        }
+
+        .adPageCont {
+            .adPage__tabs {
+
+                // left tabs
+                .ant-tabs-nav {
+                    .ant-tabs-nav-wrap {
+                        .ant-tabs-nav-list {
+                            .ant-tabs-tab {
+                                &:hover {
+                                    .ant-tabs-tab-btn {
+                                        color: $green-1;
+                                    }
+                                }
+                            }
+
+                            .ant-tabs-tab-active {
+                                .ant-tabs-tab-btn {
+                                    color: $green-1;
+                                }
+                            }
+
+                            .ant-tabs-ink-bar {
+                                background: $green-1;
+                            }
+                        }
+                    }
+                }
+
+                // right tabs
+                .ant-tabs-content-holder {
+                    .ant-tabs-content {
+                        .ant-tabs-tabpane {
+                            padding-right: $pd-4 - 1;
+                        }
+                    }
+                }
+            }
+
+            // Mobile screen
+            .adPageMobile__tabs {
+
+                // top tabs
+                .ant-tabs-nav {
+                    .ant-tabs-nav-wrap {
+                        .ant-tabs-nav-list {
+                            .ant-tabs-tab {
+                                &:hover {
+                                    .ant-tabs-tab-btn {
+                                        color: $green-1;
+                                    }
+                                }
+                            }
+
+                            .ant-tabs-tab-active {
+                                .ant-tabs-tab-btn {
+                                    color: $green-1;
+                                }
+                            }
+
+                            .ant-tabs-ink-bar {
+                                background: $green-1;
+                            }
+                        }
+                    }
+                }
+
+                // bottom tabs
+                .ant-tabs-content-holder {
+                    .ant-tabs-content {
+                        .ant-tabs-tabpane {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

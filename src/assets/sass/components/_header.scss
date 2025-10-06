@@ -1,0 +1,31 @@
+.myHeader {
+    .myHeader__item {
+        .item__search {
+            .search__style {
+                background-color: $white-2;
+
+                &:focus {
+                    outline: none;
+                    border: 2px solid $green-1;
+                }
+            }
+        }
+
+        .item__avatar {
+            @include avatarStyle(55px, 55px);
+        }
+    }
+}
+
+.myHeader__mobile {
+    .mobile__item {
+        .item__searchStyle {
+            background-color: $white-2;
+
+            &:focus {
+                outline: none;
+                border: 2px solid $green-1;
+            }
+        }
+    }
+}

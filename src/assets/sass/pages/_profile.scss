@@ -1,0 +1,75 @@
+.profile {
+    .profile__content {
+        .profileContent__left {
+            .contentLeft__avatar {
+                @include avatarStyle(130px, 130px)
+            }
+        }
+
+        .profileContent__right {
+            .contentRight__tabs {
+                .ant-tabs-nav {
+                    .ant-tabs-nav-wrap {
+                        .ant-tabs-nav-list {
+                            .ant-tabs-tab {
+                                .ant-tabs-tab-btn {
+                                    color: $dark-1;
+                                }
+                            }
+
+                            .ant-tabs-tab-active {
+                                background-color: $green-1;
+
+                                .ant-tabs-tab-btn {
+                                    color: $white-1;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .ant-tabs-content-holder {
+                    .ant-tabs-content {
+                        .ant-tabs-tabpane {
+                            .tabs__profile {
+                                p {
+                                    margin-bottom: $mg-2;
+                                    color: $dark-1;
+                                    font-weight: 700;
+                                    font-size: $fs-3;
+
+                                    span {
+                                        padding-left: $pd-1;
+                                        font-weight: 400;
+                                        color: $dark-1;
+
+                                    }
+
+                                    @include x-mobile {
+                                        font-size: 1rem;
+                                    }
+                                }
+                            }
+
+                            .contentRight__skills {
+                                .contentSkills {
+                                    .contentSkills__item {
+                                        .ant-progress {
+                                            .ant-progress-outer {
+                                                .ant-progress-inner {
+                                                    .ant-progress-bg {
+                                                        height: 15px !important;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

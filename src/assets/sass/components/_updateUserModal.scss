@@ -1,0 +1,54 @@
+// Modal Update Profile
+.ant-modal-root {
+    .ant-modal-wrap {
+        .updateModal {
+            .ant-modal-content {
+                .ant-modal-close {
+                    background-color: $red-2;
+                    width: 30px;
+                    height: 30px;
+
+                    .ant-modal-close-x {
+                        color: $white-1;
+                    }
+                }
+
+                .ant-modal-header {
+                    .ant-modal-title {
+                        h1 {
+                            font-size: $fs-4 + 2;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+
+                .ant-modal-body {}
+
+                .ant-modal-footer {
+                    .ant-btn {
+                        &:first-child {
+                            &:hover {
+                                border-color: $green-1;
+                                color: $green-1;
+                            }
+                        }
+
+                        &:last-child {
+                            background-color: $green-1;
+                            border-color: $green-1;
+                            outline: none;
+                            color: $white-1;
+
+                            &:hover {
+                                background-color: $green-3;
+                                color: $white-1;
+                                border-color: $green-3;
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+    @include tablet {
+        width: 90%;
+    }
+}
+
+.textColor {
+    color: $dark-1;
+}
