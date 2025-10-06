@@ -24,12 +24,12 @@ export default function Footer() {
         <div className='footer_item  '>
           <ul>
             <p className='footer_title'>Khóa học</p>
-            <li><a class="fa fa-angle-double-right" href='/catalog/BackEnd'></a> Lập trình Backend</li>
-            <li><a class="fa fa-angle-double-right" href="/catalog/Design"></a> Thiết kế Web</li>
-            <li><a class="fa fa-angle-double-right" href='/catalog/Mobile'></a> Lập trình di động</li>
-            <li><a class="fa fa-angle-double-right" href='/catalog/FrontEnd'></a> Lập trình Front end</li>
-            <li><a class="fa fa-angle-double-right" href='/catalog/FullStack'></a> Lập trình Full Stack</li>
-            <li><a class="fa fa-angle-double-right" href='#'></a> Tư duy lập trình</li>
+            <li><i class="fa fa-angle-double-right"></i> Lập trình Backend</li>
+            <li><i class="fa fa-angle-double-right"></i> Thiết kế Web</li>
+            <li><i class="fa fa-angle-double-right"></i> Lập trình di động</li>
+            <li><i class="fa fa-angle-double-right"></i> Lập trình Front end</li>
+            <li><i class="fa fa-angle-double-right"></i> Lập trình Full Stack</li>
+            <li><i class="fa fa-angle-double-right"></i> Tư duy lập trình</li>
           </ul>
         </div>
         <div className='footer_item  '>
